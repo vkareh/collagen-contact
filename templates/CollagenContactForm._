@@ -1,0 +1,18 @@
+<form class="form-horizontal">
+    <div class="control-group">
+        <input id="name" type="text" required="required" placeholder="Your name" />
+    </div>
+    <div class="control-group">
+        <input id="email" type="text" required="required" placeholder="Your e-mail address" />
+    </div>
+    <div class="control-group">
+        <input id="subject" type="text" required="required" placeholder="Subject" />
+    </div>
+    <div class="control-group">
+        <textarea id="message" required="required" rows="4" placeholder="Message" />
+    </div>
+    <div class="control-group">
+        <button type="submit" id="submit" class="btn btn-primary">Send e-mail</button>
+        <button type="button" id="clearForm" class="btn">Clear form</button>
+    </div>
+</form>
