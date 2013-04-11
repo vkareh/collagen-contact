@@ -7,7 +7,7 @@ models.CollagenContact.prototype.sync = function(method, model, options) {
     var mail = new email.Email({
         from: model.get('email'),
         to: Collagen.config.email,
-        subject: model.get('subject'),
+        subject: '[' + Collagen.config.name + '] ' + model.get('subject'),
         body: model.get('message')
     });
 
