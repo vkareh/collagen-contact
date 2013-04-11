@@ -1,4 +1,5 @@
 view = views.Collagen.extend({
+    pageTitle: 'Contact',
     render: function() {
         $(this.el).empty().append(templates.CollagenContact());
         return this;
