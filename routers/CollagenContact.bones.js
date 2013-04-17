@@ -1,6 +1,6 @@
 router = routers.Collagen.extend({
     routes: {
-        '/contact': 'contact'
+        'contact': 'contact'
     },
     contact: function() {
         this.send(views.CollagenContact, {
