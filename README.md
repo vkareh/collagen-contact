@@ -4,8 +4,8 @@ Collagen Contact
 This module provides a contact form in a [Collagen.js](http://collagenjs.org)
 website.
 
-The contact form can now be found by navigating to `/contact` or by clicking on
-the "Contact" link in the top navigation bar.
+The contact form can be found by navigating to `/contact` or by clicking on the
+"Contact" link in the top navigation bar.
 
 ### Installation
 To install, run `npm install collagen-contact` and add

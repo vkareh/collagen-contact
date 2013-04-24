@@ -1,14 +1,20 @@
 {
     "name": "collagen-contact",
-    "description": "Contact form for Collagen.js",
-    "version": "0.0.1",
+    "description": "Contact form for the Collagen.js framework",
+    "version": "0.1.0",
     "author": {
         "name": "Victor Kareh",
         "url": "http://www.vkareh.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vkareh/collagen-contact.git"
     },
     "main": "./index.js",
     "dependencies": {
         "email": "0.2.x",
         "nodemailer": "0.4.x"
-    }
+    },
+    "keywords": ["collagen", "contact", "email"],
+    "license": "MIT"
 }
